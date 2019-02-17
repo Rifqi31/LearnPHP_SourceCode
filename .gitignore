@@ -1,1 +1,3 @@
-/var/www/html/LearnPHP_SourceCode/learn_Composer/vendor
+learn_Composer/vendor
+.vscode
+.idea

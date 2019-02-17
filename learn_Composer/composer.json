@@ -1,0 +1,15 @@
+{
+    "name": "gedion/learncomposer",
+    "description": "Belajar menggunakan package depency management composer",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "rifqi31",
+            "email": "muttaqinrifqi31@gmail.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^2.11"
+    }
+}
