@@ -1,3 +1,4 @@
 learn_Composer/vendor
+learn_Composer/composer.lock
 .vscode
 .idea
