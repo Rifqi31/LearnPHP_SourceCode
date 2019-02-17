@@ -53,8 +53,8 @@
             <p>
                 <label for="jenis_kelamin">Jenis Kelamin : </label>
                 <?php $jenis_kelamin = $siswa['jenis_kelamin']; ?>
-                <label><input type="radio" name="jenis_kelamin" value="Pria" <?php echo ($jenis_kelamin == 'Pria') ? "checkked" : "" ?>></label>
-                <label><input type="radio" name="jenis_kelamin" value="Wanita" <?php echo ($jenis_kelamin == 'Wanita') ? "checkked" : "" ?>></label>
+                <label><input type="radio" name="jenis_kelamin" value="Pria" <?php echo ($jenis_kelamin == 'Pria') ? "checked" : "" ?>>Pria</label>
+                <label><input type="radio" name="jenis_kelamin" value="Wanita" <?php echo ($jenis_kelamin == 'Wanita') ? "checked" : "" ?>>Wanita</label>
             </p>
             <p>
                 <label for="agama">Agama : </label>
