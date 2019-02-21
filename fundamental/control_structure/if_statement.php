@@ -18,9 +18,13 @@
     <?php
         $varnum1 = 5;
         $varnum2 = 7;
+        // contoh 1
         if ($varnum1 < $varnum2) {
-            echo "$varnum2 is greater than $varnum1";
+            echo "$varnum2 is greater than $varnum1 <br>";
         }
+
+        // contoh 2
+        if ($varnum1 < $varnum2) echo "$varnum2 is greater than $varnum1";
     ?>
 </body>
 </html>
