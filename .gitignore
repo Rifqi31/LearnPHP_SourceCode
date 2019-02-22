@@ -1,5 +1,6 @@
 learn_Composer/vendor
 learn_Composer/composer.lock
+learn_node/package-lock.json
 .vscode
 .idea
 .github
