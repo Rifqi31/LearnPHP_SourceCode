@@ -8,7 +8,12 @@
 </head>
 <body>
     <h3>For Statement</h3>
-
+    <pre>
+        for ($c=nilaiawal; $c<=nilaibatasakhir; $c++) {
+            perintah 1;
+            perintah 2;
+        }
+    </pre>
     <?php
         $varnum = array(33, 22, 21,-322,-133);
         for ($counter=0; $counter <=4; $counter++) { 
