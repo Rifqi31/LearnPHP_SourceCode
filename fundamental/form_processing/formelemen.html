@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Form dan Elemen Form secara lengkap</title>
+    </head>
+<body>
+    <h1>Form dan berbagai Elemennya</h1>
+    <form>
+        Nama : <input type="text" name="nama" value="Betha" size="25" maxlength="50">
+        <br>
+        Password : <input type="password" name="password" value="test" size="15" maxlength="25">
+        <br>
+        Gender :
+        <input type="radio" name="gender" value="L">laki-laki
+        <input type="radio" name="gender" value="P">Perempuan
+        <br>
+        Hobi :
+        <input type="checkbox" name="hobi" value="Memancing">Memancing<br>
+        <input type="checkbox" name="hobi" value="Belanja">Belanja<br>
+        <input type="checkbox" name="hobi" value="Bersepeda">Bersepeda<br>
+        <input type="checkbox" name="hobi" value="Naik Gunung">Naik Gunung<br>
+
+        <input type="hiddden" name="sembunyi" value="5"><br>
+
+        Pekerjaan: 
+        <select name="pekerjaan">
+                <option value="0">Pengangguran</option>
+                <option value="1">Wirausaha</option>
+                <option value="2">Pegawai Negeri</option>
+        </select><br>
+
+        Komentar : <br>
+        <textarea name="komentar" rows="3" cols="35" placeholder="komentar"></textarea><br>
+        <input type="button" name="btn_val" value="Validasi">
+        <input type="Submit" name="kirim" value="Kirim">
+        <input type="Reset" name="reset" value="Kosongkan">
+    </form>
+</body>
+</html>
